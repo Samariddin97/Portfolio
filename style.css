@@ -28,3 +28,30 @@ body {
 }
 
 /* MAIN */
+.hero__title {
+  color: #00ADB5;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.hero__description {
+  color: gray;
+}
+
+.position {
+  color: #00ADB5;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.project-pic {
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.project-pic:hover {
+  scale: 1.05;
+  box-shadow: 10px -10px 11px 0px rgba(43,155,93,0.76);
+  -webkit-box-shadow: 10px -10px 11px 0px rgba(43,155,93,0.76);
+  -moz-box-shadow: 10px -10px 11px 0px rgba(43,155,93,0.76);
+}
